@@ -1,21 +1,5 @@
 # LOCATION (YEAR)
 
-## 🇺🇸 Dear American Travelers
-
-Broad strokes here, but:
-
-* When you are in a different country, **YOU** are the "foreigner". The word "foreigner" DOES NOT mean "not American". It just means someone who is here from someplace else. When an American travels to a different country, the American becomes the foreigner.
-
-* Honor the customs of that country, instead of trying to make them bend to what you’re used to. Don't be a dick.
-
-* Not every country speaks English. Learn [how to pronounce some key phrases in the language used in that country](https://translate.google.com). While some countries speak English as a _second_ or _third_ language, take the time to learn the language of the place you’re visiting.
-
-* No, people in other countries **DO NOT** accept U.S. dollars. They have [their own money for their own country](https://currency.world/exchange_rates/all), and it's not usually 1:1 the same value as U.S. dollars. If you don't understand different currencies, exchange rates, and how they change regularly, go to your local bank and ask them to explain it to you.
-
-* Tipping culture is different in different countries. Learn about tipping culture for where you're visiting before you go. Don't expect it to be the same as in the US.
-
-* Sales tax is calculated differently in different countries. Learn about sales tax for where you're visiting before you go. Don't be surprised when it's different from the US.
-
 ## Pre-Trip
 
 ### 🔗 Helpful links for learning more about LOCATION/COUNTRY

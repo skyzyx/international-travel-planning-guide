@@ -8,9 +8,27 @@ While my template has evolved over the years, and will likely continue to evolve
 
 ## My template
 
+See 👉 [`TEMPLATE.md`](TEMPLATE.md) 👈 for the template itself, and the `examples/` folder for some (past) example trips where I’ve applied this template.
+
 This is the _template_ that I use to plan my travel, which lately has been more international travel. I include additional information for people who are less experienced in traveling than I am, for when friends/family travel with me. If you're planning a domestic trip, you can strip-down this template. If you're planning a complex international trip, you may add a few things.
 
 Again, _this is a template_ that helps **me**. You are free to take this template and adapt it for **yourself**. If you have good ideas, feel free to open a pull-request.
+
+## 🇺🇸 Dear American Travelers
+
+Broad strokes here, but:
+
+* When you are in a different country, **YOU** are the "foreigner". The word "foreigner" DOES NOT mean "not American". It just means someone who is here from someplace else. When an American travels to a different country, the American becomes the foreigner.
+
+* Honor the customs of that country, instead of trying to make them bend to what you’re used to. Don't be a dick.
+
+* Not every country speaks English. Learn [how to pronounce some key phrases in the language used in that country](https://translate.google.com). While some countries speak English as a _second_ or _third_ language, take the time to learn the language of the place you’re visiting.
+
+* No, people in other countries **DO NOT** accept U.S. dollars. They have [their own money for their own country](https://currency.world/exchange_rates/all), and it's not usually 1:1 the same value as U.S. dollars. If you don't understand different currencies, exchange rates, and how they change regularly, go to your local bank and ask them to explain it to you.
+
+* Tipping culture is different in different countries. Learn about tipping culture for where you're visiting before you go. Don't expect it to be the same as in the US.
+
+* Sales tax is calculated differently in different countries. Learn about sales tax for where you're visiting before you go. Don't be surprised when it's different from the US.
 
 ## Recommendations
 
@@ -38,12 +56,8 @@ Again, _this is a template_ that helps **me**. You are free to take this templat
 
 * Links and information in the template will likely be US-centric (because that's what _I_ need).
 
-* I tend to favor brands like: Apple, Anker, Belkin, and buying on Amazon.
-
 * I like some balance between _scheduled_ and _unscheduled_ plans. If there are specific things that _need_ to be scheduled, I schedule them and add their times to my travel plans. Otherwise, I'll just add some cool things to do, and we can decide when we get there what we feel like doing.
 
 * I try to explain concepts (e.g., time zones, electrical adapters) for my fellow (generally American) travelers.
 
-    > **NOTE:** The U.S. is a big place, and North America is surprisingly homogenous compared to other parts of the world. Many Americans never leave the U.S. because it's so big and _they don't need to_. Sometimes, however, the result is that we never have to think about different power plugs, currencies, or more than a few hours of time zones. English is by far the dominant language, with Spanish coming in second, and French in third across North America. And several telecommunications companies have _North America_ plans with calling and data while traveling to Canada and Mexico.
-
-See [`TEMPLATE.md`](TEMPLATE.md) for the template itself, and the `examples/` folder for some (past) example trips where I’ve applied this template.
+    > **CONTEXT FOR THOSE OUTSIDE NORTH AMERICA:** The U.S. is a big place, and North America is surprisingly homogenous compared to other parts of the world. Many Americans never leave the U.S. because it's so big and _they don't need to_. Sometimes, however, the result is that we never have to think about different power plugs, currencies, or more than a few hours of time zones. English is by far the dominant language, with Spanish coming in second, and French in third across North America. And several telecommunications companies have _North America_ plans with calling and data while traveling to Canada and Mexico.
