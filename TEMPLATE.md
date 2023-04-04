@@ -124,20 +124,6 @@ Are you packing light, and doing laundry during the trip?
 
 ### 📲 Apps to install
 
-> 👉 **AUTHOR’S NOTE:** Adjust this list as appropriate. Apple Maps is better in some places; Google Maps is better in others. Citymapper and Transit are good for places with good transit systems. Uber/Lyft for ridesharing. Airalo is a good place to order eSIM cards. If LOCATION has an app for COVID-19 protocols, it might be good to add here too. And seriously: Get a VPN app to use on other cellular/Wi-Fi networks.
-
-* PREFERRED VPN APP
-* AIRLINE APP(S)
-* [Google Maps](https://apps.apple.com/us/app/google-maps/id585027354)
-* [Google Translate](https://apps.apple.com/us/app/google-translate/id414706506) — Translating between different languages
-* [Citymapper](https://apps.apple.com/us/app/citymapper-all-your-transport/id469463298)
-* [Transit](https://apps.apple.com/us/app/transit-subway-bus-times/id498151501)
-* [Uber](https://apps.apple.com/us/app/uber-request-a-ride/id368677368)
-* [Lyft](https://apps.apple.com/us/app/lyft/id529379082)
-* [Airalo](https://apps.apple.com/app/id1475911720)
-* [Mobile Passport Control](https://apps.apple.com/us/app/mobile-passport-control/id1520656722) — Streamline entry to the US
-* [ArriveCAN](https://apps.apple.com/app/id1505394667) — Streamline entry to Canada
-
 Browser websites:
 
 * [Convert Currency1 → Currency2 to understand prices for things](https://currency.world).
