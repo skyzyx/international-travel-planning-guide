@@ -1,4 +1,4 @@
-# Chapter 1: Dear American travelers 🇺🇸
+# Dear American travelers
 
 American travelers can have a poor reputation when traveling abroad. As a culture, we have a tendency to be a bit self-involved, and not react well when other places are not like home.
 

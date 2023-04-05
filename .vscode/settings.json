@@ -1,0 +1,132 @@
+{
+  "alignment.chars": {
+    ":": {
+      "spaceBefore": 0,
+      "spaceAfter": 1
+    },
+    "::": {
+      "spaceBefore": 0,
+      "spaceAfter": 0
+    },
+    "=": {
+      "spaceBefore": 1,
+      "spaceAfter": 1
+    },
+    "===": {
+      "spaceBefore": 1,
+      "spaceAfter": 1
+    },
+    "==": {
+      "spaceBefore": 1,
+      "spaceAfter": 1
+    },
+    "=>": {
+      "spaceBefore": 1,
+      "spaceAfter": 1
+    },
+    "+=": {
+      "spaceBefore": 1,
+      "spaceAfter": 1
+    },
+    "-=": {
+      "spaceBefore": 1,
+      "spaceAfter": 1
+    },
+    "*=": {
+      "spaceBefore": 1,
+      "spaceAfter": 1
+    },
+    "/=": {
+      "spaceBefore": 1,
+      "spaceAfter": 1
+    }
+  },
+  "diffEditor.codeLens": true,
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "errorLens.messageTemplate": "[$severity] $message [$source $code]",
+  "files.associations": {
+    "*.hcl": "terraform",
+    "*.xml": "xml",
+    "config": "ini",
+    ".style.yapf": "ini",
+    "*.md": "markdown",
+    "*.sh": "shellscript",
+    "*.ini": "ini",
+    "*.toml": "toml",
+    ".htmlnanorc": "json",
+    ".postcssrc": "json",
+    ".parcelrc": "json",
+    ".posthtmlrc": "json",
+    "Pipfile": "toml"
+  },
+  "files.autoSave": "onWindowChange",
+  "files.defaultLanguage": "${activeEditorLanguage}",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "go.formatTool": "gofumpt",
+  "go.lintFlags": [
+    "--fast"
+  ],
+  "go.lintTool": "golangci-lint",
+  "go.liveErrors": {
+    "enabled": true,
+    "delay": 500
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "go.useLanguageServer": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "markdown-preview-github-styles.colorTheme": "system",
+  "markdown.extension.list.indentationSize": "inherit",
+  "markdown.extension.orderedList.marker": "one",
+  "markdown.extension.tableFormatter.normalizeIndentation": true,
+  "markdown.extension.toc.levels": "1..6",
+  "markdown.extension.toc.unorderedList.marker": "*",
+  "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif",
+  "markdown-table-formatter.markdownGrammarScopes": [
+    "markdown",
+    "gohtml",
+    "gotmpl"
+  ],
+  "markdown-table-formatter.removeColonsIfSameAsDefault": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "fcrespo82.markdown-table-formatter"
+  },
+  "problems.showCurrentInStatus": true,
+  "python.formatting.provider": "yapf",
+  "search.showLineNumbers": true,
+  "search.useGlobalIgnoreFiles": true,
+  "shellcheck.enableQuickFix": true,
+  "shellformat.flag": "-s -ln=bash -i=4 -ci -sr",
+  "sortLines.filterBlankLines": true,
+  "terraform.experimentalFeatures.prefillRequiredFields": true,
+  "terraform.experimentalFeatures.validateOnSave": true,
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.formatAll.terraform": true
+    }
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.formatAll.terraform": true
+    }
+  },
+  "yaml.schemas": {
+    "https://squidfunk.github.io/mkdocs-material-insiders/schema.json": "mkdocs.yml"
+  },
+  "yaml.customTags": [
+    "!ENV scalar",
+    "!ENV sequence",
+    "tag:yaml.org,2002:python/name:materialx.emoji.to_svg",
+    "tag:yaml.org,2002:python/name:materialx.emoji.twemoji",
+    "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
+  ]
+}

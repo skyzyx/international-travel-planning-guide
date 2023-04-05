@@ -1,33 +1,90 @@
 # Project Info
-site_name: MonitorKit
+site_name: International Travel Planning Guide
+site_url: https://travel.readme.guide
+site_author: Ryan Parman
 site_description: >-
-  Monitoring-as-Code is an approach which enables the creation and management of your own set of dashboards and monitors so that you can understand what's happening in your application.
+  International Travel Planning Guide is a short book will collected tips, tricks, patterns, and habits for those who travel from USA/Canada to other countries.
 
 # Repository
-repo_url: https://github.mheducation.com/monitoring-as-code/monitorkit/
-repo_name: monitorkit
+repo_url: https://github.com/skyzyx/international-travel-planning-guide/
+repo_name: skyzyx/international-travel-planning-guide
 edit_uri: edit/main/markdown/
 docs_dir: markdown/
+
+copyright: Copyright &copy; 2023 Ryan Parman
 
 # Configuration
 theme:
   name: material
-  # custom_dir: overrides
+  # custom_dir: material/.overrides
   include_search_page: true
   search_index_only: true
   language: en
   favicon: img/favicon.ico
+  font: false
+
   icon:
     logo: octicons/graph-24
     repo: fontawesome/brands/github
-  font: false
+    tag:
+      html: fontawesome/brands/html5
+      js: fontawesome/brands/js
+      css: fontawesome/brands/css3
+
   palette:
-    scheme: preference
-    accent: indigo
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: preference
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
   features:
-    - instant
-    - search.highlight
+    # - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.tabs.link
+    # - content.tooltips
+    # - header.autohide
     - header.hide
+    - instant
+    # - navigation.expand
+    # - navigation.footer
+    # - navigation.indexes
+    - navigation.instant
+    - navigation.path
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
 
 # Custom CSS
 extra_css:
@@ -37,14 +94,17 @@ extra_css:
 # extra_javascript:
 #   - static/scripts.js
 
-module_name: markdown-macros
+module_name:
+  markdown-macros:
 
 # Extensions
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
   - def_list
   - footnotes
+  - md_in_html
   - meta
   - pymdownx.betterem:
       smart_enable: all
@@ -53,6 +113,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight:
       use_pygments: true
       # linenums: true
@@ -60,39 +123,151 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.mark
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: skyzyx
+      repo: international-travel-planning-guide
+  - pymdownx.smartsymbols
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      # alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tilde
   - toc:
       toc_depth: 5
       permalink: true
-      # slugify: pymdownx.slugs.uslugify
-  - pymdownx.tabbed
-  - pymdownx.tilde
 
 # Plugins
 plugins:
+  - git-committers:
+      repository: skyzyx/international-travel-planning-guide
+      branch: main
   - git-revision-date
   - git-revision-date-localized:
+      enable_creation_date: true
       type: timeago
       fallback_to_build_date: true
   - macros
+  - meta
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
+      # js_files:
+      #   - my/javascript/dir/file1.js
+      #   - my/javascript/dir/file2.js
+      css_files:
+        - static/styles.css
+  - privacy:
+      enabled: true
+      links: true
+      links_noopener: true
+      links_attr_map:
+        target: _blank
+  - redirects:
+      redirect_maps:
+        # "old.md": "new.md"
   - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
       prebuild_index: true
       lang:
         - en
+  - social:
+      cards: true
+      cards_font: Roboto
+      cards_color:
+        fill: "#171e21"
+        text: "#ffffff"
+  - tags:
+      enabled: true
+      tags_slugify_separator: "-"
+      tags_compare: !!python/name:material.plugins.tags.plugin.casefold
+      tags_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - typeset
 
-# Social Icons
 extra:
+  # alternate:
+  #   - name: English
+  #     link: /en/
+  #     lang: en
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by using our <a href="https://github.com/skyzyx/international-travel-planning-guide/issues/new/?title=[Feedback]+{title}&body={url}" target="_blank" rel="noopener">feedback form</a>.
+  consent:
+    title: "Cookie consent: Please help make our docs better!"
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    cookies:
+      analytics:
+        name: Google Analytics
+    actions:
+      - accept
+      - reject
+      - manage
+  generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.mheducation.com/monitoring-as-code/monitorkit/
-    - icon: fontawesome/brands/slack
-      link: https://mheducation.slack.com/archives/CGQ05TMFE
+      link: https://github.com/skyzyx/international-travel-planning-guide/
+      name: "GitHub: @skyzyx"
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@FlailingWildly
+      name: "YouTube: @FlailingWildly"
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/skyzyx/
+      name: "Docker: @skyzyx"
+    - icon: fontawesome/brands/mastodon
+      link: https://techhub.social/@skyzyx
+      name: "Mastodon: @skyzyx"
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/skyzyx
+      name: "Twitter: @skyzyx"
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/rparman
+      name: "LinkedIn: rparman"
+  tags:
+    HTML5: html
+    JavaScript: js
+    CSS: css
 
 # Navigation
 nav:
-  - index.md
-  - Features:
-      - features-terraform.md
+  - "About the Author": index.md
+  - Guide:
+      - guide/ch01-dear-american-travelers.md
+      - guide/ch02-technology-tips.md
+  - Template:
+      - template.md
+  - Meta:
+      - meta/colophon.md
+      - meta/tags.md
+  - Support this Guide:
+      - support-us/index.md
+      - support-us/watch-youtube.md
+      - support-us/become-patron.md
+      - support-us/github-sponsorship.md
+      - support-us/buy-book.md
+      - support-us/sponsor-guide.md
+      - support-us/sponsor-video.md

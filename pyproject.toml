@@ -1,19 +1,26 @@
 [tool.poetry]
-name        = "MonitorKit"
+name        = "README.guide"
 version     = "0.0"
-description = "Generating MonitorKit documentation."
-authors     = ["CloudOps and Engineering <cloud@mheducation.com>"]
+description = "Not for public use."
+authors     = ["Ryan Parman <ryan@ryanparman.com>"]
 
   [tool.poetry.dependencies]
-  python                                    = "^3.8"
+  python                                    = "^3.11"
+  cairosvg                                  = "^2.7.0"
   mkdocs                                    = "^1.1.2"
   mkdocs-git-revision-date-localized-plugin = "^0.7.2"
   mkdocs-git-revision-date-plugin           = "^0.3"
-  mkdocs-material                           = "^6.0.1"
-  mkdocs-material-extensions                = "^1.0.1"
-  mkdocs-pymdownx-material-extras           = "^1.1.1"
-  pymdown-extensions                        = "^8.0.1"
   mkdocs-macros-plugin                      = "^0.4.18"
+  mkdocs-material-extensions                = "^1.0.1"
+  mkdocs-minify-plugin                      = "^0.6.4"
+  mkdocs-pymdownx-material-extras           = "^1.1.1"
+  mkdocs-redirects                          = "^1.2.0"
+  pillow                                    = "^9.5.0"
+  mkdocs-git-committers-plugin-2 = "^1.1.2"
+
+    [tool.poetry.dependencies.mkdocs-material]
+    git = "git@github.com:squidfunk/mkdocs-material-insiders.git"
+    tag = "9.1.5-insiders-4.32.4"
 
 [build-system]
 requires      = ["poetry-core>=1.0.0"]

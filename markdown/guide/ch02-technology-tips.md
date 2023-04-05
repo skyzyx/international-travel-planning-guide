@@ -1,4 +1,4 @@
-# Chapter 2: Technology tips
+# Technology tips
 
 I call this chapter "Technology tips" because they are broad patterns, habits, and guidelines that will apply to the majority of your trips with regard to technology.
 
