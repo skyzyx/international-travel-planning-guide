@@ -1,39 +1,33 @@
-# Hi! 👋🏻 My name is Ryan!
+---
+description: Collection of tips, tricks, products, and patterns that we use to make travel planning easy.
+icon: material/emoticon-happy-outline
+---
 
-As an American 🇺🇸 with family living in Canada 🇨🇦, I've done a lot of traveling between the two countries. More recently, I’ve started traveling inter-continentally on vacation.
+# Hi! 👋🏻 We’re Jessika and Ryan!
 
-Over the years, I've put together a template[^1] that allows me to keep track of what’s important for travel. However, when I started with inter-continental travel, I’ve had to dramatically expand my template. The more countries I visit, and the more people I travel with, the more I’ve needed to explain things both to my future self as well as my travel partners.
+We’re Americans 🇺🇸 with close family living in Canada 🇨🇦. We’ve done a lot of traveling between the two countries. More recently, we’ve started traveling inter-continentally on vacation.
 
-This is a collection of tips, tricks, products, and patterns that I use to make travel planning easy. I’ve also collected tips from friends and co-workers to pull-together the most relevant information for prospective travelers coming from the USA.  🇺🇸
+Over the years, Ryan has put together a template[^1] that allows us to keep track of what’s important for travel. However, when we started traveling inter-continentally, we had to dramatically expand the template. The more countries we visit, and the more people we travel with, the more we’ve needed to explain things both to our future selves as well as our travel partners.
 
-My hope is that this will help you plan your own trips, and make international travel feel more accessible.
+This is a collection of tips, tricks, products, and patterns that we use to make travel planning easy flying out of the USA 🇺🇸 and Canada 🇨🇦.
+
+## Guide
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-solid-flag-usa:{ .lg .middle } **Dear American travelers**
+
+    ---
+
+    [:octicons-arrow-right-24: Getting started](#)
+
+-   :mobile_phone:{ .lg .middle } **Technology tips**
+
+    ---
+
+    [:octicons-arrow-right-24: Getting started](#)
+
+</div>
 
   [^1]:
-    While my template has evolved over the years, and will likely continue to evolve as I experience traveling to more places, I want to say thanks 🙏🏻 to [37signals](https://37signals.com) and their [Backpack](https://basecamp.com/handbook/05-product-histories#backpack) 🎒 product which inspired me to create the first version of this template back in the mid-2000s.
-
-
-!!! note "This is a note"
-
-    Just a thing I'm testing. Need to do something that will wrap.
-
-    While my template has evolved over the years, and will likely continue to evolve as I experience traveling to more places, I want to say thanks 🙏🏻 to [37signals](https://37signals.com) and their [Backpack](https://basecamp.com/handbook/05-product-histories#backpack) 🎒 product which inspired me to create the first version of this template back in the mid-2000s.
-
-??? question "How to measure site search usage?"
-
-    Besides page views and events, [site search] can be tracked to better understand how people use your documentation and what they expect to find. In order to enable site search tracking, the following steps are required:
-
-    === ":material-google-analytics: Google Analytics 4"
-
-        1. Go to your Google Analytics __admin settings__
-        2. Select the property for the respective tracking code
-        3. Select the __data streams__ tab and click the corresponding URL
-        4. Click the gear icon within the __enhanced measurement__ section
-        5. Ensure that __site search__ is enabled
-
-    === ":material-google-analytics: Universal Analytics"
-
-        1.  Go to your Google Analytics __admin settings__
-        2.  Select the property for the respective tracking code
-        3.  Go to the __view settings__ tab
-        4.  Scroll down and enable __site search settings__
-        5.  Set the __query parameter__ to `q`
+    While our template has evolved over the years, and will continue to evolve as we experience traveling to more places, Ryan wanted to say thanks 🙏🏻 to [37signals](https://37signals.com) and their [Backpack](https://basecamp.com/handbook/05-product-histories#backpack) 🎒 product which inspired him to create the first version of this template back in the mid-2000s.

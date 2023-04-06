@@ -10,8 +10,8 @@ repo_url: https://github.com/skyzyx/international-travel-planning-guide/
 repo_name: skyzyx/international-travel-planning-guide
 edit_uri: edit/main/markdown/
 docs_dir: markdown/
-
 copyright: Copyright &copy; 2023 Ryan Parman
+use_directory_urls: true
 
 # Configuration
 theme:
@@ -20,7 +20,7 @@ theme:
   include_search_page: true
   search_index_only: true
   language: en
-  favicon: img/favicon.ico
+  favicon: favicon.ico
   font: false
 
   icon:
@@ -32,40 +32,18 @@ theme:
       css: fontawesome/brands/css3
 
   palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: preference
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
+    scheme: preference
+    accent: indigo
 
   features:
-    # - announce.dismiss
+    - announce.dismiss
     - content.action.edit
     - content.action.view
     - content.code.annotate
     - content.code.copy
-    # - content.tabs.link
-    # - content.tooltips
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
     # - header.autohide
     - header.hide
     - instant
@@ -105,10 +83,11 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
-  - meta
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
+  - pymdownx.critic:
+      mode: view
   - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
@@ -117,9 +96,13 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
   - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: true
+      line_spans: __span
+      pygments_lang_class: true
       use_pygments: true
-      # linenums: true
-      # linenums_style: pymdownx.inline
+      linenums: false
+      linenums_style: table
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.mark
@@ -128,10 +111,15 @@ markdown_extensions:
       user: skyzyx
       repo: international-travel-planning-guide
   - pymdownx.smartsymbols
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append:
+        - abbreviations.md
   - pymdownx.superfences
   - pymdownx.tabbed:
-      # alternate_style: true
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
@@ -150,7 +138,8 @@ plugins:
       type: timeago
       fallback_to_build_date: true
   - macros
-  - meta
+  - meta:
+      meta_file: "**/.meta.yml"
   - minify:
       minify_html: true
       minify_js: true
@@ -163,6 +152,10 @@ plugins:
       #   - my/javascript/dir/file2.js
       css_files:
         - static/styles.css
+  # - offline:
+  #     enabled: true
+  # - optimize:
+  #     enabled: true
   - privacy:
       enabled: true
       links: true
@@ -254,20 +247,25 @@ extra:
 
 # Navigation
 nav:
-  - "About the Author": index.md
-  - Guide:
-      - guide/ch01-dear-american-travelers.md
-      - guide/ch02-technology-tips.md
+  - "Home":
+      - Welcome: index.md
+      - guide/dear-american-travelers.md
+      - guide/technology-tips.md
+      - guide/electrical.md
   - Template:
       - template.md
-  - Meta:
-      - meta/colophon.md
-      - meta/tags.md
   - Support this Guide:
       - support-us/index.md
-      - support-us/watch-youtube.md
-      - support-us/become-patron.md
+      - support-us/charity.md
+      - Share this guide: support-us/share-guide.md
+      - Like and share video: support-us/watch-youtube.md
+      - Buy us a gift: support-us/wishlist.md
+      - Become our patron: support-us/become-patron.md
       - support-us/github-sponsorship.md
       - support-us/buy-book.md
       - support-us/sponsor-guide.md
       - support-us/sponsor-video.md
+  - Meta:
+      - meta/ethics.md
+      - meta/privacy.md
+      - meta/colophon.md

@@ -8,39 +8,6 @@
 * TWO
 * THREE
 
-### 🔌 Electrical and Voltage
-
-* <https://www.worldstandards.eu/electricity/information-for-travellers/>
-* <https://www.worldstandards.eu/electricity/spread-plug-types-map/>
-* <https://www.worldstandards.eu/electricity/plug-voltage-by-country/>
-* <https://world-power-plugs.com>
-
-> 👉 **AUTHOR’S NOTE:** Just include the countries that matter for the current trip. This table includes information from North America, parts of Europe, and Japan. Read the links above for information about other destinations.
-
-Understanding what you _have_ is important for understanding what you _need_.
-
-| Country                       | Plug Type      | Voltage and Frequency               |
-|-------------------------------|----------------|-------------------------------------|
-| United States, Canada         | Type A, Type B | 120V (voltage), 60Hz (frequency)    |
-| Iceland, Germany, Netherlands | Type C, Type F | 230V (voltage), 50Hz (frequency)    |
-| Belgium, France               | Type C, Type E | 230V (voltage), 50Hz (frequency)    |
-| Japan                         | Type A, Type B | 100V (voltage), 50–60Hz (frequency) |
-
-#### Recommended power adapters
-
-Some countries are not usually covered by universal adapters, such as **India** (Type D), **Israel** (Type H), and **South Africa** (Type M or N). You'll need to buy specific plug adapters for those destinations.
-
-| Product                                                                                                                                     | Description                                                                                                                                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Apple: World Travel Adapter Kit](https://www.apple.com/shop/product/MD837AM/A/apple-world-travel-adapter-kit)                              | Adapts the power brick that came with your MacBook or other Apple device. Does not include its own separate power brick. Includes adapters for all (?) countries.                                             |
-| [Anker: Adaptable Power Brick → USB-C](https://www.amazon.com/dp/B0885SPJDZ)                                                                | Power brick + adapters for North America, Japan, UK, Ireland, Pakistan, Singapore, European Union, and South Korea. No included adapters for South America, Africa, or Australia or New Zealand.              |
-| [Anker: Convert EU outlets for NA/Japanese plugins](https://www.amazon.com/dp/B08HM2TZMJ)                                                   | Convert European (Type E/F) outlets → North American/Japanese (Type A) + USB-A devices.                                                                                                                       |
-| [OneWorld PD](https://oneadaptr.com/products/oneworld-pd-all-in-one-world-adapter-with-usb-c-3-usb-charger)                                 | Good for phones (lower power-draw). More USB ports than Apple power bricks.                                                                                                                                   |
-| [OneWorld65](https://oneadaptr.com/products/oneworld-65-international-adapter-with-65w-pd-charger)                                          | Good for laptops (higher power-draw). More USB ports than Apple power bricks.                                                                                                                                 |
-| [Mophie: 3-in-1 Wireless Charging Pad with MagSafe](https://www.apple.com/shop/product/HPTA2ZM/A/mophie-3-in-1-travel-charger-with-magsafe) | North American/Japanese (Type A) plug. Supports charging multiple phones/watches at once. Expensive, but might be worth it if you have all of these devices and travel frequently enough. Small and foldable. |
-| [Apple: Magsafe Duo Charger](https://www.apple.com/shop/product/MHXF3AM/A/magsafe-duo-charger)                                              | One fewer charging spot compared to the Mophie one. Slightly cheaper. Also small and foldable.                                                                                                                |
-| [Anker: Magnetic extended iPhone battery](https://www.anker.com/products/a1641)                                                             | Magnetic charger for devices that support magnetic charging. [iPhone 8 and newer](https://support.apple.com/en-us/HT201296). Probably Android devices too (untested by me).                                   |
-
 ### 🕓 Understanding Time Zones
 
 **UTC:** Coordinated Universal Time; formerly **GMT** = Greenwich Mean Time.

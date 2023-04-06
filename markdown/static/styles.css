@@ -24,102 +24,33 @@ body {
 /******************************************************************************/
 
 /* https://simpleicons.org */
-.airbnb { color: #FF5A5F; }
+/* .airbnb { color: #FF5A5F; } */
 .amazon { color: #FF9900; }
-.amazon-pay { color: #FF9900; }
-.anchor { color: #5000B9; }
+.android { color: #00AC47; }
 .apple-app-store { color: #0D96F6; }
-.apple-black { color: #000000; }
 .apple-music { color: #FA243C; }
-.apple-news { color: #FD415E; }
-.apple-podcasts { color: #9933CC; }
-.asciinema { color: #D40000; }
-.bash { color: #4EAA25; }
-.bitly { color: #EE6123; }
-.cash-app { color: #00C244; }
-.cloudflare { color: #F38020; }
-.containers { color: #333333; }
-.creative-commons { color: #EF9421; }
-.dependabot { color: #025E8C; }
-.docker { color: #2496ED; }
 .dropbox { color: #0061FF; }
-.duckduckgo { color: #DE5833; }
-.editorconfig { color: #FEFEFE; }
-.elgato { color: #101010; }
-.eslint { color: #4B32C3; }
 .evernote { color: #00A82D; }
 .fb-messenger { color: #00B2FF; }
-.git { color: #F05032; }
-.git-lfs { color: #F64935; }
-.github { color: #181717; }
-.github-actions { color: #2088FF; }
-.github-pages { color: #222222; }
-.github-spponsors { color: #EA4AAA; }
-.go { color: #00ADD8; }
-.google-analytics { color: #E37400; }
 .google-blue { color: #4285F4; }
-.google-green { color: #00AC47; }
 .google-play { color: #414141; }
-.gumroad { color: #36A9AE; }
-.hbo { color: #000000; }
-.homebrew { color: #FBB040; }
-.hulu { color: #1CE783; }
 .icloud { color: #3693F3; }
-.keep-a-changelog { color: #E05735; }
-.keybase { color: #33A0FF; }
-.lets-encrypt { color: #003A70; }
-.linkedin { color: #0A66C2; }
-.linux { color: #FCC624; }
-.lua { color: #2C2D72; }
-.mailgun { color: #F06B66; }
-.markdown { color: #000000; }
-.mastodon { color: #6364FF; }
+.ms-onedrive { color: #0078D4; }
 .ms-onenote { color: #7719AA; }
 .netflix { color: #E50914; }
-.nodejs { color: #339933; }
-.nord-vpn { color: #4687FF; }
-.obs-studio { color: #302E31; }
-.onenote { color: #0078D4; }
 .onepassword { color: #0094F5; }
-.osi { color: #3DA639; }
-.overcast { color: #FC7E0F; }
 .patreon { color: #FF424D; }
-.paypal { color: #00457C; }
-.playstation { color: #003791; }
-.pre-commit { color: #FAB040; }
-.prettier { color: #F7B93E; }
-.prime-video { color: #1F2E3E; }
-.proton-mail { color: #8B89CC; }
 .proton-vpn { color: #56B366; }
-.python { color: #3776AB; }
-.reddit { color: #FF4500; }
-.renovatebot { color: #1A1F6C; }
-.rss { color: #FFA500; }
 .samsung-pay { color: #1428A0; }
-.semver { color: #3F4551; }
 .signal { color: #3A76F0; }
-.sketch { color: #F7B500; }
-.slack { color: #4A154B; }
-.snyk { color: #4C4A73; }
-.stripe { color: #008CDD; }
-.svg { color: #FFB13B; }
-.swift { color: #F05138; }
-.tailwind { color: #06B6D4; }
-.terrform { color: #7B42BC; }
-.tiktok { color: #000000; }
-.toml { color: #9C4121; }
-.tor { color: #7D4698; }
-.twitch { color: #9146FF; }
-.twitter { color: #1DA1F2; }
-.venmo { color: #3D95CE; }
-.vlc { color: #FF8800; }
-.vscode { color: #007ACC; }
-.wasm { color: #654FF0; }
-.webauthn { color: #3423A6; }
-.whatsapp { color: #25D366; }
-.xbox { color: #107C10; }
 .youtube { color: #FF0000; }
-.yubico { color: #84BD00; }
+
+@media (prefers-color-scheme: dark) {
+  .dropbox { color: #ccc; }
+  .google-play { color: #ccc; }
+  .ms-onedrive { color: #ccc; }
+  .ms-onenote { color: #ccc; }
+}
 
 /******************************************************************************/
 
@@ -265,6 +196,10 @@ div.md-content a:hover {
   transition: all .15s ease-in;
 }
 
+div.md-content div.tabbed-set a {
+  text-decoration: none !important;
+}
+
 div.md-content a.md-button {
   text-decoration: none !important;
 }
@@ -281,66 +216,65 @@ div.md-content a.md-button {
 
 /******************************************************************************/
 
-.md-typeset .labs > .admonition-title, .md-typeset .labs > summary {
-  background-color: #eeffee;
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 1px;
+  border-left-width: .2rem;
 }
 
-.md-typeset .admonition.labs, .md-typeset details.labs {
+.md-typeset .admonition.labs,
+.md-typeset details.labs {
   border: 1px solid #ccffcc;
   border-left: .2rem solid #008040;
 }
 
-.md-typeset .labs > .admonition-title::before, .md-typeset .labs > summary::before {
-  background-color: #008040;
-
-  -webkit-mask-image: var(--md-admonition-icon--labs);
-          mask-image: var(--md-admonition-icon--labs);
-}
-
-.md-typeset .note > .admonition-title, .md-typeset .note > summary {
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary {
   background-color: #cfe2ff;
 }
 
-.md-typeset .admonition.note, .md-typeset details.note {
+.md-typeset .admonition.note,
+.md-typeset details.note {
   border: 1px solid #bbd6fe;
   border-left: .2rem solid #448aff;
 }
 
-.md-typeset .note > .admonition-title::before, .md-typeset .note > summary::before {
+.md-typeset .note > .admonition-title::before,
+.md-typeset .note > summary::before {
   background-color: #448aff;
-
-  -webkit-mask-image: var(--md-admonition-icon--info);
-          mask-image: var(--md-admonition-icon--info);
 }
 
-.md-typeset .warning > .admonition-title, .md-typeset .warning > summary {
+.md-typeset .warning > .admonition-title,
+.md-typeset .warning > summary {
   background-color: #fff3cd;
 }
 
-.md-typeset .admonition.warning, .md-typeset details.warning {
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
   border: 1px solid #ffeeba;
   border-left: .2rem solid #ff9100;
 }
 
-.md-typeset .warning > .admonition-title::before, .md-typeset .warning > summary::before {
+.md-typeset .warning > .admonition-title::before,
+.md-typeset .warning > summary::before {
   background-color: #ff9100;
 }
 
-.md-typeset .important > .admonition-title, .md-typeset .important > summary {
+.md-typeset .important > .admonition-title,
+.md-typeset .important > summary {
   background-color: #f8d7da;
 }
 
-.md-typeset .admonition.important, .md-typeset details.important {
+.md-typeset .admonition.important,
+.md-typeset details.important {
   border: 1px solid #f5c6cb;
   border-left: .2rem solid #d9534f;
 }
 
-.md-typeset .important > .admonition-title::before, .md-typeset .important > summary::before {
+.md-typeset .important > .admonition-title::before,
+.md-typeset .important > summary::before {
   background-color: #d9534f;
   line-height: -.5rem;
-
-  -webkit-mask-image: var(--md-admonition-icon--important);
-          mask-image: var(--md-admonition-icon--important);
 }
 
 .md-typeset .task-list-control [type=checkbox]:checked+.task-list-indicator::before {
