@@ -1,5 +1,5 @@
 ---
-description: ""
+description: Getting power and charging your electronics while traveling abroad.
 icon: fontawesome/solid/plug-circle-bolt
 ---
 
