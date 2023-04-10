@@ -3,7 +3,7 @@ description: Here are some things that are not always obvious to new American tr
 icon: fontawesome/solid/flag-usa
 ---
 
-# Dear American travelers
+# Dear American Travelers
 
 American travelers can have a poor reputation when traveling abroad. As a culture, we have a tendency to be a bit self-involved, and not react well when other places are not like home.
 

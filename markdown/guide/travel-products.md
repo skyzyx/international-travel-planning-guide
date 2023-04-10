@@ -5,24 +5,100 @@ icon: fontawesome/solid/earth-asia
 
 # Travel Products
 
-!!! note "Author’s Note"
+**None of these are required**, but some of them will probably make your travel experience better. There are cheaper options, but these are high quality and are likely to last.
 
-    These are things that _I_ travel with. If you have different recommendations, replace mine with yours in your travel plan.
+{== These are **NOT** sponsored product placements. ==} These are products that we can personally recommend. See our [ethics statement](../meta/ethics.md).
 
-!!! important
+## Suggested products
 
-    **None of these are required**, but some of them will probably make your travel experience better.
+<div class="grid cards" markdown>
 
-There are cheaper options, but these are high quality and are likely to last.
+* :fontawesome-solid-person-hiking:{ .lg .middle } **[Osprey Farpoint® 40 (Men’s)](https://www.osprey.com/us/en/product/farpoint-40-travel-pack-FARPONT40F22_550.html)**
 
-* [Osprey Farpoint® 40 Travel Pack (Men’s)](https://www.osprey.com/us/en/product/farpoint-40-travel-pack-FARPONT40F22_550.html) — Big travel backpack. Can be used instead of a suitcase. Rugged.
-* [Osprey Fairview® 40 Travel Pack (Women’s)](https://www.osprey.com/us/en/product/fairview-40-travel-pack-FAIRVEW40F22_550.html) — Big travel backpack. Can be used instead of a suitcase. Rugged.
-* [Osprey Daylite® Plus](https://www.osprey.com/us/en/product/daylite-plus-DAYLTPLUSS21_778.html) — Light day pack. Great for walking around with a few things during the day. Easily packed inside of Farpoint/Fairview backpacks during flights.
-* [Airfly](https://www.twelvesouth.com/products/airfly) — Converts an old-school 3.5mm headphone port to work with Bluetooth headphones. Works with airplane movies, Nintendo 3DS, and anything else with a headphone port.
-* [Loop Quiet](https://community.loopearplugs.com/s/readme.guide) — Re-usable earplugs. High quality. For traveling with snorers.
-* [Side-by-Side RFID Passport Pouch](https://sidebysidegear.com/products/side-by-side-kit) — Will block RFID signals from reading your bank card and other things. Also good for holding your passport and other things in one place.
-* [Side-by-Side Power Packer](https://sidebysidegear.com/products/the-power-packer) — This is what I have to hold all of my cables and adapters for my devices when I travel.
-* [Twelve South BookBook CaddySack](https://www.twelvesouth.com/products/bookbook-caddysack) — Similar to the thing that I have (above). A little more expensive, but might be a better physical shape for you.
-* [Tom Bihn Travel Tray](https://www.tombihn.com/collections/best-sellers/products/travel-tray) — Perfect for storing miscellaneous items that end up in your pockets. Includes a drawstring which makes packing quick and easy for any trip.
-* [Nitecore® TINI 2 Keychain Flashlight](https://www.amazon.com/dp/B08NLKCMKQ) — Great to have on-hand if you need a flashlight, but your battery is low.
-* [Howsarlock® Metal Door Lock](https://howsarlock.com/product/howsarlock-metal/) — I’ve ordered one for our trip, but if you travel with someone else, this could be good to have.
+    ---
+
+    [![Osprey Farpoint® 40 Travel Pack (Men’s)](../images/farpoint-40-backpack.jpg)](https://www.osprey.com/us/en/product/farpoint-40-travel-pack-FARPONT40F22_550.html)
+
+    Big travel backpack. Can be used instead of a suitcase. Rugged.
+
+* :fontawesome-solid-person-hiking:{ .lg .middle } **[Osprey Fairview® 40 (Women’s)](https://www.osprey.com/us/en/product/fairview-40-travel-pack-FAIRVEW40F22_550.html)**
+
+    ---
+
+    [![Osprey Fairview® 40 Travel Pack (Women’s)](../images/fairview-40-backpack.jpg)](https://www.osprey.com/us/en/product/fairview-40-travel-pack-FAIRVEW40F22_550.html)
+
+    Big travel backpack. Can be used instead of a suitcase. Rugged.
+
+* :fontawesome-solid-person-hiking:{ .lg .middle } **[Osprey Daylite® Plus](https://www.osprey.com/us/en/product/daylite-plus-DAYLTPLUSS21_778.html)**
+
+    ---
+
+    [![Osprey Daylite® Plus](../images/daylite-plus-21-backpack.jpg)](https://www.osprey.com/us/en/product/daylite-plus-DAYLTPLUSS21_778.html)
+
+    Light day pack. Great for walking around with a few things during the day.
+
+* :material-headphones:{ .lg .middle } **[Twelve South Airfly Pro](https://www.twelvesouth.com/products/airfly)**
+
+    ---
+
+    [![Twelve South Airfly Pro](../images/airfly-pro.jpg)](https://www.twelvesouth.com/products/airfly)
+
+    Converts a 3.5mm headphone port to work with Bluetooth headphones.
+
+* :material-earbuds:{ .lg .middle } **[Loop Quiet](https://us.loopearplugs.com/products/quiet)**
+
+    ---
+
+    [![Loop Quiet](../images/loop-quiet.jpg)](https://us.loopearplugs.com/products/quiet)
+
+    Re-usable earplugs (**not** headphones). High quality. For traveling with snorers.
+
+* :material-passport:{ .lg .middle } **[Side by Side RFID Passport Pouch](https://sidebysidegear.com/products/side-by-side-kit)**
+
+    ---
+
+    [![Side by Side RFID Passport Pouch](../images/side-by-side-rfid-passport-holder.jpg)](https://sidebysidegear.com/products/side-by-side-kit)
+
+    Holds your passport and other things in one place. Blocks RFID signals.
+
+* :material-cable-data:{ .lg .middle } **[Side by Side Power Packer](https://sidebysidegear.com/products/the-power-packer)**
+
+    ---
+
+    [![Side by Side Power Packer](../images/side-by-side-tech-pouch.jpg)](https://sidebysidegear.com/products/the-power-packer)
+
+    Efficiently stores cables: USB, Lightning, HDMI, Magsafe, SD cards, etc.
+
+* :material-cable-data:{ .lg .middle } **[Twelve South BookBook CaddySack](https://www.twelvesouth.com/products/bookbook-caddysack)**
+
+    ---
+
+    [![Twelve South BookBook CaddySack](../images/twelve-south-caddy-sack.jpg)](https://www.twelvesouth.com/products/bookbook-caddysack)
+
+    Similar to the _Side by Side Power Packer_. More expensive, but maybe a better shape.
+
+* :material-bowl:{ .lg .middle } **[Tom Bihn Travel Tray](https://www.tombihn.com/collections/best-sellers/products/travel-tray)**
+
+    ---
+
+    [![Tom Bihn Travel Tray](../images/tom-bihn-travel-tray.jpg)](https://www.tombihn.com/collections/best-sellers/products/travel-tray)
+
+    Perfect for storing miscellaneous items that end up in your pockets.
+
+* :material-flashlight:{ .lg .middle } **[Nitecore® TINI 2 Keychain Flashlight](https://www.amazon.com/dp/B08NLKCMKQ)**
+
+    ---
+
+    [![Nitecore® TINI 2 Keychain Flashlight](../images/nitecore-tini-flashlight.jpg)](https://www.amazon.com/dp/B08NLKCMKQ)
+
+    Great to have on-hand if you need a flashlight, but your phone battery is low.
+
+* :material-lock:{ .lg .middle } **[Howsarlock® Metal Door Lock](https://howsarlock.com/product/howsarlock-metal/)**
+
+    ---
+
+    [![Howsarlock® Metal Door Lock](../images/howsarlock-metal.jpg)](https://howsarlock.com/product/howsarlock-metal/)
+
+    Locks a door from the inside. Great for hotels, motels, and hostels.
+
+</div>

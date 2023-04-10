@@ -1,9 +1,9 @@
 ---
 description: These are broad patterns, habits, and guidelines that will apply to the majority of your trips with regard to technology.
-icon: material/cellphone
+icon: material/laptop
 ---
 
-# Technology tips
+# Technology Tips
 
 These are broad patterns, habits, and guidelines that will apply to the majority of your trips with regard to technology.
 
@@ -98,37 +98,11 @@ Apps that keep track of flight/travel details can be useful. [Trip It], [Kayak],
 
     Most require a subscription for real-time data access and updates. Even if you don’t like app subscriptions, subscribing for the month of your trip could be worthwhile.
 
-## :fontawesome-brands-app-store:{ .apple-app-store } Apps to install
-
-| App                                      |                 {% include 'partials/table-ios.md' %}                  |                {% include 'partials/table-android.md' %}                 | Description/Reason                                                                                                                                                                                                      |
-|------------------------------------------|:----------------------------------------------------------------------:|:------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <nobr>**AIRLINE APP(S)**</nobr>          |                                                                        |                                                                          | Download the app(s) that you'll need for your flights.                                                                                                                                                                  |
-| <nobr>**Proton VPN**</nobr>              |    [{% include 'partials/table-appstore.md' %}][appstore-protonvpn]    |    [{% include 'partials/table-playstore.md' %}][playstore-protonvpn]    | Whomever controls the cellular/Wi-Fi networks can see the traffic that goes over that network. [ProtonVPN](https://protonvpn.com) is based in Switzerland, which has incredibly strong privacy laws.                    |
-| <nobr>**Google Maps**</nobr>             |   [{% include 'partials/table-appstore.md' %}][appstore-googlemaps]    |   [{% include 'partials/table-playstore.md' %}][playstore-googlemaps]    | Apple Maps is better in some places; Google Maps is better in others. Apple Maps is only available on iOS devices.                                                                                                      |
-| <nobr>**Google Translate**</nobr>        | [{% include 'partials/table-appstore.md' %}][appstore-googletranslate] | [{% include 'partials/table-playstore.md' %}][playstore-googletranslate] | Translates between different languages. Supports typed input, audio input, and pointing your camera at signs.                                                                                                           |
-| **Citymapper**                           |   [{% include 'partials/table-appstore.md' %}][appstore-citymapper]    |   [{% include 'partials/table-playstore.md' %}][playstore-citymapper]    | Citymapper is better in some places; Transit is better in others. Handy public transit information. _Some_ cities/services might have better dedicated apps, so do some research and look into those.                   |
-| **Transit**                              |     [{% include 'partials/table-appstore.md' %}][appstore-transit]     |     [{% include 'partials/table-playstore.md' %}][playstore-transit]     | Citymapper is better in some places; Transit is better in others. Handy public transit information. _Some_ cities/services might have better dedicated apps, so do some research and look into those.                   |
-| **Uber**                                 |      [{% include 'partials/table-appstore.md' %}][appstore-uber]       |      [{% include 'partials/table-playstore.md' %}][playstore-uber]       | Uber is better in some places; Lyft is better in others. These are ride-sharing apps that are cheaper and more reliable than taxis.                                                                                     |
-| **Lyft**                                 |      [{% include 'partials/table-appstore.md' %}][appstore-lyft]       |      [{% include 'partials/table-playstore.md' %}][playstore-lyft]       | Uber is better in some places; Lyft is better in others. These are ride-sharing apps that are cheaper and more reliable than taxis.                                                                                     |
-| **Airalo**                               |     [{% include 'partials/table-appstore.md' %}][appstore-airalo]      |     [{% include 'partials/table-playstore.md' %}][playstore-airalo]      | An app that makes it simple to purchase and install eSIM cards for traveling. There are competitors, you can often get eSIM cards directly from carriers, and you can also get physical travel SIM cards in many cases. |
-| <nobr>**Mobile Passport Control**</nobr> |       [{% include 'partials/table-appstore.md' %}][appstore-mpc]       |       [{% include 'partials/table-playstore.md' %}][playstore-mpc]       | Streamlines entry (back) to the USA.                                                                                                                                                                                    |
-| **ArriveCAN**                            |    [{% include 'partials/table-appstore.md' %}][appstore-arrivecan]    |    [{% include 'partials/table-playstore.md' %}][playstore-arrivecan]    | Streamline entry (back) to Canada.                                                                                                                                                                                      |
-
   [Amazon Prime Video]: https://www.amazon.com/gp/help/customer/display.html?nodeId=GTBPYKSYKCXSPRKP
   [Apple TV+]: https://support.apple.com/en-us/HT204411
   [apple-maps-sharing]: https://support.apple.com/guide/iphone/organize-places-in-my-guides-iph0a53d4d7f/ios
   [apple-notes-sharing]: https://support.apple.com/guide/iphone/share-and-collaborate-iphe4d04f674/ios
   [apple-photo-sharing]: https://support.apple.com/en-us/HT202786
-  [appstore-airalo]: https://apps.apple.com/app/id1475911720
-  [appstore-arrivecan]: https://apps.apple.com/app/id1505394667
-  [appstore-citymapper]: https://apps.apple.com/us/app/citymapper-all-your-transport/id469463298
-  [appstore-googlemaps]: https://apps.apple.com/us/app/google-maps/id585027354
-  [appstore-googletranslate]: https://apps.apple.com/us/app/google-translate/id414706506
-  [appstore-lyft]: https://apps.apple.com/us/app/lyft/id529379082
-  [appstore-mpc]: https://apps.apple.com/us/app/mobile-passport-control/id1520656722
-  [appstore-protonvpn]: https://apps.apple.com/us/app/proton-vpn-fast-secure/id1437005085
-  [appstore-transit]: https://apps.apple.com/us/app/transit-subway-bus-times/id498151501
-  [appstore-uber]: https://apps.apple.com/us/app/uber-request-a-ride/id368677368
   [Disney+]: https://help.disneyplus.com/csp?id=csp_article_content&sys_kb_id=8a412500dbc495945ec1eb2ed396190f
   [Dropbox]: https://www.dropbox.com
   [Evernote]: https://evernote.com
@@ -145,16 +119,6 @@ Apps that keep track of flight/travel details can be useful. [Trip It], [Kayak],
   [Netflix]: https://help.netflix.com/en/node/14164
   [OneDrive]: https://onedrive.live.com
   [OneNote]: https://onenote.live.com
-  [playstore-airalo]: https://play.google.com/store/apps/details?id=com.mobillium.airalo
-  [playstore-arrivecan]: https://play.google.com/store/apps/details?id=ca.gc.cbsa.coronavirus
-  [playstore-citymapper]: https://play.google.com/store/apps/details?id=com.citymapper.app.release
-  [playstore-googlemaps]: https://play.google.com/store/apps/details?id=com.google.android.apps.maps
-  [playstore-googletranslate]: https://play.google.com/store/apps/details?id=com.google.android.apps.translate
-  [playstore-lyft]: https://play.google.com/store/apps/details?id=me.lyft.android
-  [playstore-mpc]: https://play.google.com/store/apps/details?id=gov.dhs.cbp.pspd.mpc
-  [playstore-protonvpn]: https://play.google.com/store/apps/details?id=ch.protonvpn.android
-  [playstore-transit]: https://play.google.com/store/apps/details?id=com.thetransitapp.droid
-  [playstore-uber]: https://play.google.com/store/apps/details?id=com.ubercab
   [Samsung USB-C to HDMI Adapter]: https://www.samsung.com/us/mobile/mobile-accessories/phones/usb-c-to-hdmi-adapter--black-ee-hg950dbegww/
   [shared Google Drive folder]: https://support.google.com/drive/answer/7166529
   [shared iCloud Drive folder]: https://support.apple.com/guide/iphone/share-files-and-folders-in-icloud-drive-iph17f9f92a6/ios

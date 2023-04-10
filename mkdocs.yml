@@ -250,10 +250,12 @@ nav:
   - "Home":
       - Welcome: index.md
       - guide/dear-american-travelers.md
+      - guide/passport-embassies.md
       - guide/technology-tips.md
+      - guide/apps-to-install.md
+      - guide/travel-products.md
       - guide/electrical.md
       - guide/timezones.md
-      - guide/travel-products.md
   - Template:
       - template.md
   - Support this Guide:

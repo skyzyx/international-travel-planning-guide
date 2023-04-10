@@ -11,7 +11,7 @@ icon: fontawesome/solid/plug-circle-bolt
     * [World map showing the spread of plug types around the world](https://www.worldstandards.eu/electricity/spread-plug-types-map/)
     * [World power plugs and outlets](https://world-power-plugs.com)
 
-## Quick overview of plugs and voltage
+## :fontawesome-solid-plug-circle-bolt: Quick overview of plugs and voltage
 
 Understanding what you _have_ is important for understanding what you _need_. Here’s a brief table that aims for broad strokes. See [Country-by-country list of plugs, sockets and voltages](https://www.worldstandards.eu/electricity/plug-voltage-by-country/) for a more comprehensive list.
 
@@ -30,7 +30,7 @@ Understanding what you _have_ is important for understanding what you _need_. He
 | South Africa, Swaziland and Lesotho                                                                               | [Type M], [Type N]                     | 220–230V |
 | Thailand                                                                                                          | [Type A], [Type B], [Type C], [Type O] | 230V     |
 
-## Recommended power adapters
+## :electric_plug: Recommended power adapters
 
 Some countries are not usually covered by universal adapters, such as **India** (Type D), **Israel** (Type H), and **South Africa** (Type M or N). You'll need to buy specific plug adapters for those destinations.
 
@@ -40,7 +40,7 @@ Some countries are not usually covered by universal adapters, such as **India** 
 | [Anker: Adaptable Power Brick → USB-C]              | Power brick + adapters for North America, Japan, UK, Ireland, Pakistan, Singapore, European Union, and South Korea. No included adapters for South America, Africa, or Australia or New Zealand. |
 | [Anker: Convert EU outlets for NA/Japanese plugins] | Convert European (Type E/F) outlets → North American/Japanese (Type A) + USB-A devices.                                                                                                          |
 
-## Recommended devices for charging your electronics
+## :fontawesome-solid-house-laptop: Recommended devices for charging your electronics
 
 | Product                                             | Description                                                                                                                                                                                                   |
 |-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

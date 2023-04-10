@@ -21,34 +21,6 @@ Are you packing light, and doing laundry during the trip?
     * Eastern dryers aren’t always as powerful as Western dryers, and doing multiple cycles can add up.
     * Are _dryer sheets_ common in LOCATION?
 
-### 📲 Apps to install
-
-Browser websites:
-
-* [Convert Currency1 → Currency2 to understand prices for things](https://currency.world).
-* [Tokyo Wi-Fi locations](https://www.wifi-tokyo.jp).
-
-### 🛂 Passport and Known Traveler ID
-
-* Passport(s)
-* NEXUS, Global Entry, TSA Pre-✓ notes
-* Other relevant travel information
-
-### 🆘 Embassies
-
-> 👉 **AUTHOR’S NOTE:** Adjust this list as appropriate. The following links are real, but examples. Replace with information from the state/travel department for your native country as appropriate. Example destination countries were selected off the top of my head.
-
-* 🇺🇸 [American embassies in Japan](https://jp.usembassy.gov) and [travel advisories](https://jp.usembassy.gov/category/alert/)
-* 🇺🇸 [American embassies in the United Kingdom](https://uk.usembassy.gov) and [travel advisories](https://uk.usembassy.gov/category/alert/)
-* 🇺🇸 [American embassies in France](https://fr.usembassy.gov) and [travel advisories](https://fr.usembassy.gov/category/alert/)
-* 🇺🇸 [American embassies in Germany](https://de.usembassy.gov) and [travel advisories](https://de.usembassy.gov/category/alert/)
-* 🇺🇸 [American embassies in Australia](https://au.usembassy.gov) and [travel advisories](https://au.usembassy.gov/category/alert/)
-* 🇨🇦 [Canadian embassies in Japan](https://travel.gc.ca/assistance/embassies-consulates/japan) and [travel advisories](https://travel.gc.ca/destinations/japan)
-* 🇨🇦 [Canadian embassies in the United Kingdom](https://travel.gc.ca/assistance/embassies-consulates/united-kingdom) and [travel advisories](https://travel.gc.ca/destinations/united-kingdom)
-* 🇨🇦 [Canadian embassies in France](https://travel.gc.ca/assistance/embassies-consulates/france) and [travel advisories](https://travel.gc.ca/destinations/france)
-* 🇨🇦 [Canadian embassies in Germany](https://travel.gc.ca/assistance/embassies-consulates/germany) and [travel advisories](https://travel.gc.ca/destinations/germany)
-* 🇨🇦 [Canadian embassies in Australia](https://travel.gc.ca/assistance/embassies-consulates/australia) and [travel advisories](https://travel.gc.ca/destinations/australia)
-
 ### 📱SIM Cards for Mobile
 
 > 👉 **AUTHOR’S NOTE:** This is what _I_ use for eSIM connectivity. Adjust this list as appropriate for your own needs.
