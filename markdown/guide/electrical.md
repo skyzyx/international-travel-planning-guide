@@ -13,7 +13,7 @@ icon: fontawesome/solid/plug-circle-bolt
 
 ## Quick overview of plugs and voltage
 
-Understanding what you _have_ is important for understanding what you _need_. Here’s a brief table tha aims for broad strokes. See [Country-by-country list of plugs, sockets and voltages](https://www.worldstandards.eu/electricity/plug-voltage-by-country/) for a more comprehensive list.
+Understanding what you _have_ is important for understanding what you _need_. Here’s a brief table that aims for broad strokes. See [Country-by-country list of plugs, sockets and voltages](https://www.worldstandards.eu/electricity/plug-voltage-by-country/) for a more comprehensive list.
 
 | Country/Continent                                                                                                 | Plug Type                              | Voltage  |
 |-------------------------------------------------------------------------------------------------------------------|----------------------------------------|----------|
