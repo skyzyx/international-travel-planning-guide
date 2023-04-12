@@ -16,7 +16,7 @@ use_directory_urls: true
 # Configuration
 theme:
   name: material
-  # custom_dir: material/.overrides
+  custom_dir: overrides
   include_search_page: true
   search_index_only: true
   language: en
@@ -247,17 +247,37 @@ extra:
 
 # Navigation
 nav:
-  - "Home":
+  - Guide:
       - Welcome: index.md
-      - guide/dear-american-travelers.md
-      - guide/passport-embassies.md
-      - guide/technology-tips.md
-      - guide/apps-to-install.md
-      - guide/travel-products.md
-      - guide/electrical.md
-      - guide/timezones.md
-  - Template:
-      - template.md
+      - "Travel Documents":
+          - guide/passport.md
+          - guide/trusted-traveler.md
+      - "Prepare for your Trip":
+          - guide/technology-tips.md
+          - guide/apps-to-install.md
+          - guide/travel-products.md
+          - guide/electrical.md
+          - guide/timezones.md
+          - guide/currency.md
+          - guide/register-travel.md
+      - "Safety Advice for Marginalized Groups":
+          - guide/lgbtqia-travelers.md
+          - guide/women-travelers.md
+          - guide/elderly-travelers.md
+          - guide/student-youth-travelers.md
+      - "Traveling Abroad":
+          - guide/dear-american-travelers.md
+          - guide/customs-abroad.md
+          - guide/cybersecurity.md
+          - guide/travel-sim.md
+          - guide/driving.md
+          - guide/covid-19.md
+          - guide/vaccination.md
+          - guide/embassies.md
+      - "Coming Home":
+          - guide/customs-home.md
+  # - Template:
+  #     - template.md
   - Support this Guide:
       - support-us/index.md
       - support-us/charity.md

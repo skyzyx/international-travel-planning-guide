@@ -1,6 +1,6 @@
 ---
 description: Here are some things that are not always obvious to new American travelers.
-icon: fontawesome/solid/flag-usa
+icon: flag_us
 ---
 
 # Dear American Travelers
