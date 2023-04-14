@@ -12,301 +12,148 @@ body {
   animation-timing-function: linear;
 }
 
-@-webkit-keyframes fontfix {from { opacity: 1 } to { opacity: 1 }}
-@keyframes fontfix {from { opacity: 1 } to { opacity: 1 }}
+@-webkit-keyframes fontfix {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fontfix {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 /******************************************************************************/
 
 :root > * {
-  --md-admonition-icon--important: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a.75.75 0 01.75.75v4.5a.75.75 0 01-1.5 0v-4.5A.75.75 0 0112 7zm0 10a1 1 0 100-2 1 1 0 000 2z"/><path d="M7.328 1.47a.75.75 0 01.53-.22h8.284a.75.75 0 01.53.22l5.858 5.858c.141.14.22.33.22.53v8.284a.75.75 0 01-.22.53l-5.858 5.858a.75.75 0 01-.53.22H7.858a.75.75 0 01-.53-.22L1.47 16.672a.75.75 0 01-.22-.53V7.858a.75.75 0 01.22-.53L7.328 1.47zm.84 1.28L2.75 8.169v7.662l5.419 5.419h7.662l5.419-5.418V8.168L15.832 2.75H8.168z"/></svg>')
+  --md-admonition-icon--important: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a.75.75 0 01.75.75v4.5a.75.75 0 01-1.5 0v-4.5A.75.75 0 0112 7zm0 10a1 1 0 100-2 1 1 0 000 2z"/><path d="M7.328 1.47a.75.75 0 01.53-.22h8.284a.75.75 0 01.53.22l5.858 5.858c.141.14.22.33.22.53v8.284a.75.75 0 01-.22.53l-5.858 5.858a.75.75 0 01-.53.22H7.858a.75.75 0 01-.53-.22L1.47 16.672a.75.75 0 01-.22-.53V7.858a.75.75 0 01.22-.53L7.328 1.47zm.84 1.28L2.75 8.169v7.662l5.419 5.419h7.662l5.419-5.418V8.168L15.832 2.75H8.168z"/></svg>');
+
+  /* FONTS */
+  --font-monospace: "Meslo LG S", "Meslo LG S Regular", Menlo, Consolas, Monaco, "Courier New", monospace, monospace;
+  --font-sans-serif: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Noto, "Segoe UI", Arial,
+    sans-serif;
 }
 
-/******************************************************************************/
+/* LIGHT MODE, PRINT */
+@media screen {
+  body[data-md-color-media="(prefers-color-scheme: light)"] {
+    /* BRANDS */
+    --color-airbnb: #ff5a5f;
+    --color-amazon: #ff9900;
+    --color-android: #00ac47;
+    --color-apple-app-store: #0d96f6;
+    --color-apple-music: #fa243c;
+    --color-dropbox: #0061ff;
+    --color-evernote: #00a82d;
+    --color-fb-messenger: #00b2ff;
+    --color-google-blue: #4285f4;
+    --color-google-play: #414141;
+    --color-icloud: #3693f3;
+    --color-ms-onedrive: #0078d4;
+    --color-ms-onenote: #7719aa;
+    --color-netflix: #e50914;
+    --color-onepassword: #0094f5;
+    --color-patreon: #ff424d;
+    --color-proton-vpn: #56b366;
+    --color-samsung-pay: #1428a0;
+    --color-signal: #3a76f0;
+    --color-youtube: #ff0000;
 
-/* https://simpleicons.org */
-/* .airbnb { color: #FF5A5F; } */
-.amazon { color: #FF9900; }
-.android { color: #00AC47; }
-.apple-app-store { color: #0D96F6; }
-.apple-music { color: #FA243C; }
-.dropbox { color: #0061FF; }
-.evernote { color: #00A82D; }
-.fb-messenger { color: #00B2FF; }
-.google-blue { color: #4285F4; }
-.google-play { color: #414141; }
-.icloud { color: #3693F3; }
-.ms-onedrive { color: #0078D4; }
-.ms-onenote { color: #7719AA; }
-.netflix { color: #E50914; }
-.onepassword { color: #0094F5; }
-.patreon { color: #FF424D; }
-.proton-vpn { color: #56B366; }
-.samsung-pay { color: #1428A0; }
-.signal { color: #3A76F0; }
-.youtube { color: #FF0000; }
+    /* BODY */
+    --color-link-default: #357edd;
+    --color-link-hover: #96ccff;
+    --color-code-bg: #f8f8ff;
+    --color-code-text: #ba2121;
+    --color-button-bg: #f8f8ff;
+    --color-code-border: #dde;
+    --color-pre-border: #dde;
+    --color-pre-code-border: none;
+    --color-pre-code-bg: transparent;
+    --color-fullimage-border: #fff;
+    --opacity-images: 1;
+    --color-sidebar-active-border: hsla(231, 99%, 66%, 1);
+    --color-sidebar-active-bg: hsla(231, 99%, 66%, 1);
+    --color-sidebar-active-text: #fff;
 
-@media (prefers-color-scheme: dark) {
-  .dropbox { color: #ccc; }
-  .google-play { color: #ccc; }
-  .ms-onedrive { color: #ccc; }
-  .ms-onenote { color: #ccc; }
-}
-
-/******************************************************************************/
-
-/* html {
-  line-height: 1.15;
-  font-size: 20px;
-}
-
-body {
-  font-size: 1rem;
-} */
-
-body, input {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Noto, "Segoe UI", Arial, sans-serif;
-}
-
-span.button {
-  display: inline-block;
-  padding: .1rem .2rem;
-  background-color: #f8f8ff;
-  border: 1px solid #dde;
-  border-radius: .15rem;
-}
-
-.md-typeset hr {
-  border: none;
-  border-top: 1px solid #ccc;
-}
-
-.md-typeset h1 code,
-.md-typeset h2 code,
-.md-typeset h3 code,
-.md-typeset h4 code,
-.md-typeset h5 code,
-.md-typeset h6 code {
-  padding: .1rem .2rem;
-}
-
-.md-typeset code,
-.md-typeset kbd {
-  display: inline-block;
-  font-family: "Meslo LG S", "Meslo LG S Regular", Menlo, Consolas, Monaco, "Courier New", monospace,monospace;
-  padding: .1rem .2rem;
-  background-color: #f8f8ff;
-  color: #ba2121;
-  border: 1px solid #dde;
-  border-radius: 3px;
-}
-
-.md-typeset pre {
-  display: block;
-  font-family: "Meslo LG S", "Meslo LG S Regular", Menlo, Consolas, Monaco, "Courier New", monospace,monospace;
-  padding: 1px 2px;
-  border: 1px solid #dde;
-  border-radius: 3px;
-
-  overflow-x: auto;
-  overflow-y: hidden;
-  overflow:   scroll;
-
-  /* background-color: #222;
-  color: #ddd; */
-  white-space: pre;
-
-  -webkit-hyphens: none;
-  hyphens: none;
-  position: relative;
-}
-
-.md-typeset pre > code {
-  border: none;
-  color: inherit;
-  background-color: transparent;
-}
-
-.md-typeset h1,
-.md-typeset h2 {
-  color: var(--md-typeset-color);
-  font-weight: 500;
-  padding-bottom: .3em;
-  border-bottom: 1px solid #eaecef;
-}
-
-.md-typeset .admonition {
-  font-size: .75rem;
-  box-shadow: 0 .3rem .5rem rgba(0,0,0,.1),0 0 .1rem rgba(0,0,0,.1);
-}
-
-.md-typeset svg {
-  height: 100px;
-}
-
-.md-typeset a.md-content__button.md-icon svg {
-  height: auto;
-}
-
-.md-typeset picture.center,
-.md-typeset picture.center source,
-.md-typeset picture.center img,
-.md-typeset img.center {
-  display: block;
-  margin: 0 auto;
-}
-
-.md-grid {
-  max-width: 80rem;
-}
-
-/* .md-sidebar {
-  width: 14rem;
-} */
-
-.md-sidebar .md-nav__link--active {
-  font-weight: bold;
-}
-
-.nested-links a {
-    text-decoration: none;
-    border-bottom: 1px dotted #357edd;
-}
-
-.nested-links a:hover {
-    text-decoration: none;
-    border-bottom: 1px solid #96ccff;
-}
-
-div.md-content a {
-  display: inline-block;
-  color: #357edd;
-
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-  text-decoration-thickness: from-font;
-  text-decoration-color: #357edd;
-  text-underline-position: under;
-  text-underline-offset: 1px;
-}
-
-div.md-content a:hover {
-  color: #96ccff;
-  text-decoration-style: solid;
-  text-decoration-color: #96ccff;
-  transition: all .15s ease-in;
-}
-
-div.md-content div.tabbed-set a {
-  text-decoration: none !important;
-}
-
-div.md-content a.md-button {
-  text-decoration: none !important;
-}
-
-.md-typeset__table {
-  min-width: 100%;
-}
-
-.md-typeset table:not([class]) {
-  display: table;
-  font-size: .75rem;
-  box-shadow: 0 .3rem .5rem rgba(0,0,0,.1),0 0 .1rem rgba(0,0,0,.1);
-}
-
-/******************************************************************************/
-
-.md-typeset .admonition,
-.md-typeset details {
-  border-width: 1px;
-  border-left-width: .2rem;
-}
-
-.md-typeset .admonition.labs,
-.md-typeset details.labs {
-  border: 1px solid #ccffcc;
-  border-left: .2rem solid #008040;
-}
-
-.md-typeset .note > .admonition-title,
-.md-typeset .note > summary {
-  background-color: #cfe2ff;
-}
-
-.md-typeset .admonition.note,
-.md-typeset details.note {
-  border: 1px solid #bbd6fe;
-  border-left: .2rem solid #448aff;
-}
-
-.md-typeset .note > .admonition-title::before,
-.md-typeset .note > summary::before {
-  background-color: #448aff;
-}
-
-.md-typeset .warning > .admonition-title,
-.md-typeset .warning > summary {
-  background-color: #fff3cd;
-}
-
-.md-typeset .admonition.warning,
-.md-typeset details.warning {
-  border: 1px solid #ffeeba;
-  border-left: .2rem solid #ff9100;
-}
-
-.md-typeset .warning > .admonition-title::before,
-.md-typeset .warning > summary::before {
-  background-color: #ff9100;
-}
-
-.md-typeset .important > .admonition-title,
-.md-typeset .important > summary {
-  background-color: #f8d7da;
-}
-
-.md-typeset .admonition.important,
-.md-typeset details.important {
-  border: 1px solid #f5c6cb;
-  border-left: .2rem solid #d9534f;
-}
-
-.md-typeset .important > .admonition-title::before,
-.md-typeset .important > summary::before {
-  background-color: #d9534f;
-  line-height: -.5rem;
-}
-
-.md-typeset .task-list-control [type=checkbox]:checked+.task-list-indicator::before {
-  background-color: #393;
-}
-
-/******************************************************************************/
-
-@media screen and (min-width: 60em) {
-  img.fullimage {
-    max-width: calc(100% - 30px);
-    border: 10px solid #fff;
-    box-shadow: 0 1px 20px 5px rgba(128, 128, 128, 0.3);
-    margin: 1.5rem 0;
-  }
-
-  img.fullimage-noshadow {
-    max-width: calc(100% - 30px);
-    width: auto !important;
-    margin: 0 auto;
-  }
-
-  div.columns ul {
-    columns: auto auto;
+    /* ADMONITIONS */
+    --color-admonition-labs-title: #008040;
+    --color-admonition-labs-border: #ccffcc;
+    --color-admonition-note-title: #448aff;
+    --color-admonition-note-bg: #cfe2ff;
+    --color-admonition-note-border: #bbd6fe;
+    --color-admonition-warning-title: #ff9100;
+    --color-admonition-warning-bg: #fff3cd;
+    --color-admonition-warning-border: #ffeeba;
+    --color-admonition-important-title: #d9534f;
+    --color-admonition-important-bg: #f8d7da;
+    --color-admonition-important-border: #f5c6cb;
   }
 }
 
-/******************************************************************************/
+@media screen and (prefers-color-scheme: light) {
+  body[data-md-color-media="(prefers-color-scheme)"] {
+    /* BRANDS */
+    --color-airbnb: #ff5a5f;
+    --color-amazon: #ff9900;
+    --color-android: #00ac47;
+    --color-apple-app-store: #0d96f6;
+    --color-apple-music: #fa243c;
+    --color-dropbox: #0061ff;
+    --color-evernote: #00a82d;
+    --color-fb-messenger: #00b2ff;
+    --color-google-blue: #4285f4;
+    --color-google-play: #414141;
+    --color-icloud: #3693f3;
+    --color-ms-onedrive: #0078d4;
+    --color-ms-onenote: #7719aa;
+    --color-netflix: #e50914;
+    --color-onepassword: #0094f5;
+    --color-patreon: #ff424d;
+    --color-proton-vpn: #56b366;
+    --color-samsung-pay: #1428a0;
+    --color-signal: #3a76f0;
+    --color-youtube: #ff0000;
 
-/* Default to "light" mode. */
-@media (prefers-color-scheme: dark) {
-  :root > * {
+    /* BODY */
+    --color-link-default: #357edd;
+    --color-link-hover: #96ccff;
+    --color-code-bg: #f8f8ff;
+    --color-code-text: #ba2121;
+    --color-button-bg: #f8f8ff;
+    --color-code-border: #dde;
+    --color-pre-border: #dde;
+    --color-pre-code-border: none;
+    --color-pre-code-bg: transparent;
+    --color-fullimage-border: #fff;
+    --opacity-images: 1;
+    --color-sidebar-active-border: hsla(231, 99%, 66%, 1);
+    --color-sidebar-active-bg: hsla(218, 100%, 63%, 0.3);
+    --color-sidebar-active-text: #fff;
+
+    /* ADMONITIONS */
+    --color-admonition-labs-title: #008040;
+    --color-admonition-labs-border: #ccffcc;
+    --color-admonition-note-title: #448aff;
+    --color-admonition-note-bg: #cfe2ff;
+    --color-admonition-note-border: #bbd6fe;
+    --color-admonition-warning-title: #ff9100;
+    --color-admonition-warning-bg: #fff3cd;
+    --color-admonition-warning-border: #ffeeba;
+    --color-admonition-important-title: #d9534f;
+    --color-admonition-important-bg: #f8d7da;
+    --color-admonition-important-border: #f5c6cb;
+  }
+}
+
+/* DARK MODE */
+@media screen {
+  body[data-md-color-media="(prefers-color-scheme: dark)"] {
     /* Theme: Slate */
     --md-hue: 232 !important;
     --md-default-fg-color: hsla(var(--md-hue), 75%, 95%, 1) !important;
@@ -340,100 +187,449 @@ div.md-content a.md-button {
     --md-accent-fg-color--transparent: hsla(231, 99%, 66%, 0.1) !important;
     --md-accent-bg-color: hsla(0, 0%, 100%, 1) !important;
     --md-accent-bg-color--light: hsla(0, 0%, 100%, 0.7) !important;
-  }
 
-  span.button {
-    background-color: #3b3b3b;
-    border-color: #666;
-  }
+    /* BRANDS */
+    --color-dropbox: #ccc;
+    --color-google-play: #ccc;
+    --color-ms-onedrive: #ccc;
+    --color-ms-onenote: #ccc;
 
-  .md-typeset pre {
-    border-color: #333;
-  }
+    /* BODY */
+    --color-link-default: #96ccff;
+    --color-link-hover: #357edd;
+    --color-code-bg: #200;
+    --color-code-text: #f92672;
+    --color-code-border: #633;
+    --color-checkbox: #3c3;
+    --color-button-border: #dde;
+    --color-pre-border: #333;
+    --color-pre-code-border: transparent;
+    --color-pre-code-bg: #000;
+    --color-fullimage-border: #000;
+    --opacity-images: 0.7;
+    --color-sidebar-active-border: hsla(231, 99%, 66%, 1);
+    --color-sidebar-active-bg: hsla(218, 100%, 63%, 0.3);
+    --color-sidebar-active-text: #fff;
 
-  .md-typeset code {
-    color: #f92672;
-    background-color: #200;
-    border-color: #633;
-  }
-
-  .md-typeset pre > code {
-    background-color: #000;
-    border: 1px solid transparent;
-  }
-
-  .md-typeset img.fullimage {
-    border-color: #000;
-  }
-
-  .md-typeset picture source,
-  .md-typeset picture img,
-  .md-typeset video,
-  .md-typeset img {
-    opacity: 0.7;
-  }
-
-  div.md-content a {
-    color: #96ccff;
-    text-decoration-color: #96ccff;
-  }
-
-  div.md-content a:hover {
-    color: #357edd;
-    text-decoration-color: #357edd;
-  }
-
-  .md-typeset .note > .admonition-title, .md-typeset .note > summary {
-    background-color: #003f9f;
-  }
-
-  .md-typeset .admonition.note, .md-typeset details.note {
-    border-color: transparent;
-    border-left-color: #448aff;
-  }
-
-  .md-typeset .note > .admonition-title::before, .md-typeset .note > summary::before {
-    background-color: #448aff;
-  }
-
-  .md-typeset .warning > .admonition-title, .md-typeset .warning > summary {
-    background-color: #654d00;
-  }
-
-  .md-typeset .admonition.warning, .md-typeset details.warning {
-    border-color: transparent;
-    border-left-color: #ff9100;
-  }
-
-  .md-typeset .warning > .admonition-title::before, .md-typeset .warning > summary::before {
-    background-color: #ff9100;
-  }
-
-  .md-typeset .important > .admonition-title, .md-typeset .important > summary {
-    background-color: #70000a;
-  }
-
-  .md-typeset .admonition.important, .md-typeset details.important {
-    border-color: transparent;
-    border-left-color: #d9534f;
-  }
-
-  .md-typeset .important > .admonition-title::before, .md-typeset .important > summary::before {
-    background-color: #d9534f;
-  }
-
-  .md-typeset .task-list-control [type=checkbox]:checked+.task-list-indicator::before {
-    background-color: #3c3;
+    /* ADMONITIONS */
+    --color-admonition-labs-title: #008040;
+    --color-admonition-labs-border: #ccffcc;
+    --color-admonition-note-title: #448aff;
+    --color-admonition-note-bg: #003f9f;
+    --color-admonition-note-border: #448aff;
+    --color-admonition-warning-title: #ff9100;
+    --color-admonition-warning-bg: #654d00;
+    --color-admonition-warning-border: #ff9100;
+    --color-admonition-important-title: #d9534f;
+    --color-admonition-important-bg: #70000a;
+    --color-admonition-important-border: #d9534f;
   }
 }
 
+@media screen and (prefers-color-scheme: dark) {
+  body[data-md-color-media="(prefers-color-scheme)"] {
+    /* Theme: Slate */
+    --md-hue: 232 !important;
+    --md-default-fg-color: hsla(var(--md-hue), 75%, 95%, 1) !important;
+    --md-default-fg-color--light: hsla(var(--md-hue), 75%, 90%, 0.62) !important;
+    --md-default-fg-color--lighter: hsla(var(--md-hue), 75%, 90%, 0.32) !important;
+    --md-default-fg-color--lightest: hsla(var(--md-hue), 75%, 90%, 0.12) !important;
+    --md-default-bg-color: hsla(var(--md-hue), 15%, 21%, 1) !important;
+    --md-default-bg-color--light: hsla(var(--md-hue), 15%, 21%, 0.54) !important;
+    --md-default-bg-color--lighter: hsla(var(--md-hue), 15%, 21%, 0.26) !important;
+    --md-default-bg-color--lightest: hsla(var(--md-hue), 15%, 21%, 0.07) !important;
+    --md-code-fg-color: hsla(var(--md-hue), 18%, 86%, 1) !important;
+    --md-code-bg-color: hsla(var(--md-hue), 15%, 15%, 1) !important;
+    --md-code-hl-color: hsla(218, 100%, 63%, 0.15) !important;
+    --md-code-hl-number-color: hsla(6, 74%, 63%, 1) !important;
+    --md-code-hl-special-color: hsla(340, 83%, 66%, 1) !important;
+    --md-code-hl-function-color: hsla(291, 57%, 65%, 1) !important;
+    --md-code-hl-constant-color: hsla(250, 62%, 70%, 1) !important;
+    --md-code-hl-keyword-color: hsla(219, 66%, 64%, 1) !important;
+    --md-code-hl-string-color: hsla(150, 58%, 44%, 1) !important;
+    --md-typeset-a-color: var(--md-primary-fg-color--light) !important;
+    --md-typeset-mark-color: hsla(218, 100%, 63%, 0.3) !important;
+    --md-typeset-kbd-color: hsla(var(--md-hue), 15%, 94%, 0.12) !important;
+    --md-typeset-kbd-accent-color: hsla(var(--md-hue), 15%, 94%, 0.2) !important;
+    --md-typeset-kbd-border-color: hsla(var(--md-hue), 15%, 14%, 1) !important;
+    --md-admonition-bg-color: hsla(var(--md-hue), 0%, 100%, 0.025) !important;
+    --md-footer-bg-color: hsla(var(--md-hue), 15%, 12%, 0.87) !important;
+    --md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 10%, 1) !important;
+
+    /* Accent: Indigo */
+    --md-accent-fg-color: hsla(231, 99%, 66%, 1) !important;
+    --md-accent-fg-color--transparent: hsla(231, 99%, 66%, 0.1) !important;
+    --md-accent-bg-color: hsla(0, 0%, 100%, 1) !important;
+    --md-accent-bg-color--light: hsla(0, 0%, 100%, 0.7) !important;
+
+    /* BRANDS */
+    --color-dropbox: #ccc;
+    --color-google-play: #ccc;
+    --color-ms-onedrive: #ccc;
+    --color-ms-onenote: #ccc;
+
+    /* BODY */
+    --color-link-default: #96ccff;
+    --color-link-hover: #357edd;
+    --color-code-bg: #200;
+    --color-code-text: #f92672;
+    --color-code-border: #633;
+    --color-checkbox: #3c3;
+    --color-button-border: #dde;
+    --color-pre-border: #333;
+    --color-pre-code-border: transparent;
+    --color-pre-code-bg: #000;
+    --color-fullimage-border: #000;
+    --opacity-images: 0.7;
+    --color-sidebar-active-border: hsla(231, 99%, 66%, 1);
+    --color-sidebar-active-bg: hsla(218, 100%, 63%, 0.3);
+    --color-sidebar-active-text: #fff;
+
+    /* ADMONITIONS */
+    --color-admonition-labs-title: #008040;
+    --color-admonition-labs-border: #ccffcc;
+    --color-admonition-note-title: #448aff;
+    --color-admonition-note-bg: #003f9f;
+    --color-admonition-note-border: #448aff;
+    --color-admonition-warning-title: #ff9100;
+    --color-admonition-warning-bg: #654d00;
+    --color-admonition-warning-border: #ff9100;
+    --color-admonition-important-title: #d9534f;
+    --color-admonition-important-bg: #70000a;
+    --color-admonition-important-border: #d9534f;
+  }
+}
+
+/******************************************************************************/
+/* BRAND COLORS */
+
+/* https://simpleicons.org */
+.airbnb {
+  color: var(--color-airbnb);
+}
+.amazon {
+  color: var(--color-amazon);
+}
+.android {
+  color: var(--color-android);
+}
+.apple-app-store {
+  color: var(--color-apple-app-store);
+}
+.apple-music {
+  color: var(--color-apple-music);
+}
+.dropbox {
+  color: var(--color-dropbox);
+}
+.evernote {
+  color: var(--color-evernote);
+}
+.fb-messenger {
+  color: var(--color-fb-messenger);
+}
+.google-blue {
+  color: var(--color-google-blue);
+}
+.google-play {
+  color: var(--color-google-play);
+}
+.icloud {
+  color: var(--color-icloud);
+}
+.ms-onedrive {
+  color: var(--color-ms-onedrive);
+}
+.ms-onenote {
+  color: var(--color-ms-onenote);
+}
+.netflix {
+  color: var(--color-netflix);
+}
+.onepassword {
+  color: var(--color-onepassword);
+}
+.patreon {
+  color: var(--color-patreon);
+}
+.proton-vpn {
+  color: var(--color-proton-vpn);
+}
+.samsung-pay {
+  color: var(--color-samsung-pay);
+}
+.signal {
+  color: var(--color-signal);
+}
+.youtube {
+  color: var(--color-youtube);
+}
+
+/******************************************************************************/
+/* BODY ELEMENTS */
+
+body,
+input {
+  font-family: var(--font-sans-serif);
+}
+
+span.button {
+  display: inline-block;
+  padding: 0.1rem 0.2rem;
+  background-color: var(--color-button-bg);
+  border: 1px solid var(--color-button-border);
+  border-radius: 0.15rem;
+}
+
+.md-typeset hr {
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.md-typeset h1 code,
+.md-typeset h2 code,
+.md-typeset h3 code,
+.md-typeset h4 code,
+.md-typeset h5 code,
+.md-typeset h6 code {
+  padding: 0.1rem 0.2rem;
+}
+
+.md-typeset code,
+.md-typeset kbd {
+  display: inline-block;
+  font-family: var(--font-monospace);
+  padding: 0.1rem 0.2rem;
+  background-color: var(--color-code-bg);
+  color: var(--color-code-text);
+  border: 1px solid (--color-code-border);
+  border-radius: 0.1875em;
+}
+
+.md-typeset pre {
+  display: block;
+  font-family: var(--font-monospace);
+  padding: 1px 2px;
+  border: 1px solid var(--color-pre-border);
+  border-radius: 0.1875em;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+  overflow: scroll;
+
+  white-space: pre;
+
+  -webkit-hyphens: none;
+  hyphens: none;
+  position: relative;
+}
+
+.md-typeset pre > code {
+  border: var(--color-pre-code-border);
+  color: inherit;
+  background-color: var(--color-pre-code-bg);
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  color: var(--md-typeset-color);
+  font-weight: 500;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #eaecef;
+}
+
+.md-typeset .admonition {
+  font-size: 0.75rem;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.1), 0 0 0.1rem rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset svg {
+  height: 100px;
+}
+
+.md-typeset a.md-content__button.md-icon svg {
+  height: auto;
+}
+
+.md-typeset picture.center,
+.md-typeset picture.center source,
+.md-typeset picture.center img,
+.md-typeset img.center {
+  display: block;
+  margin: 0 auto;
+  opacity: var(--opacity-images);
+}
+
+.md-grid {
+  max-width: 80rem;
+}
+
+.md-sidebar .md-nav__link--active {
+  font-weight: bold;
+}
+
+.nested-links a {
+  text-decoration: none;
+  border-bottom: 1px dotted var(--color-link-default);
+}
+
+.nested-links a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-link-hover);
+}
+
+div.md-content a {
+  display: inline-block;
+  color: var(--color-link-default);
+
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: from-font;
+  text-decoration-color: var(--color-link-default);
+  text-underline-position: under;
+  text-underline-offset: 1px;
+}
+
+div.md-content a:hover {
+  color: var(--color-link-hover);
+  text-decoration-style: solid;
+  text-decoration-color: var(--color-link-hover);
+  transition: all 0.15s ease-in;
+}
+
+div.md-content div.tabbed-set .tabbed-labels [href]:first-child {
+  text-decoration: none !important;
+}
+
+div.md-content a.md-button {
+  text-decoration: none !important;
+}
+
+div.md-content div.grid.cards strong a {
+  text-decoration: none !important;
+}
+
+div.md-sidebar.md-sidebar--primary li.md-nav__item--active li.md-nav__item--active li.md-nav__item--active > a {
+  border: 1px solid var(--color-sidebar-active-border);
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.1825em;
+  background-color: var(--color-sidebar-active-bg);
+  color: var(--color-sidebar-active-text);
+}
+
+.md-typeset__table {
+  min-width: 100%;
+}
+
+.md-typeset table:not([class]) {
+  display: table;
+  font-size: 0.75rem;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.1), 0 0 0.1rem rgba(0, 0, 0, 0.1);
+}
+
+/******************************************************************************/
+/* ADMONITIONS */
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 1px;
+  border-left-width: 0.2rem;
+}
+
+.md-typeset .admonition.labs,
+.md-typeset details.labs {
+  border: 1px solid var(--color-admonition-labs-border);
+  border-left: 0.2rem solid var(--color-admonition-labs-title);
+}
+
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary {
+  background-color: var(--color-admonition-note-bg);
+}
+
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border: 1px solid var(--color-admonition-note-border);
+  border-left: 0.2rem solid var(--color-admonition-note-title);
+}
+
+.md-typeset .note > .admonition-title::before,
+.md-typeset .note > summary::before {
+  background-color: var(--color-admonition-note-title);
+}
+
+.md-typeset .warning > .admonition-title,
+.md-typeset .warning > summary {
+  background-color: var(--color-admonition-warning-bg);
+}
+
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border: 1px solid var(--color-admonition-warning-border);
+  border-left: 0.2rem solid var(--color-admonition-warning-title);
+}
+
+.md-typeset .warning > .admonition-title::before,
+.md-typeset .warning > summary::before {
+  background-color: var(--color-admonition-warning-title);
+}
+
+.md-typeset .important > .admonition-title,
+.md-typeset .important > summary {
+  background-color: var(--color-admonition-important-bg);
+}
+
+.md-typeset .admonition.important,
+.md-typeset details.important {
+  border: 1px solid var(--color-admonition-important-border);
+  border-left: 0.2rem solid var(--color-admonition-important-title);
+}
+
+.md-typeset .important > .admonition-title::before,
+.md-typeset .important > summary::before {
+  background-color: var(--color-admonition-important-title);
+  line-height: -0.5rem;
+}
+
+.md-typeset .task-list-control [type="checkbox"]:checked + .task-list-indicator::before {
+  background-color: var(--color-checkbox);
+}
+
+/******************************************************************************/
+/* LARGER DISPLAY */
+
+@media screen and (min-width: 60em) {
+  img.fullimage {
+    max-width: calc(100% - 30px);
+    border: 10px solid var(--color-fullimage-border);
+    box-shadow: 0 1px 20px 5px rgba(128, 128, 128, 0.3);
+    margin: 1.5rem 0;
+  }
+
+  img.fullimage-noshadow {
+    max-width: calc(100% - 30px);
+    width: auto !important;
+    margin: 0 auto;
+  }
+
+  div.columns ul {
+    columns: auto auto;
+  }
+}
+
+/******************************************************************************/
+/* REDUCED MOTION */
+
 @media screen and (prefers-reduced-motion: reduce) {
-  *, ::before, ::after {
+  *,
+  ::before,
+  ::after {
     animation-delay: -1ms !important;
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     background-attachment: initial !important;
     scroll-behavior: auto !important;
+    -webkit-scroll-behavior: auto !important;
     transition-duration: 0.001ms !important;
     transition-delay: 0s !important;
   }

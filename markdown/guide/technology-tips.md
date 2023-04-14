@@ -18,14 +18,8 @@ This guide assumes that you:
 * Have a smartphone…
 * …with Apple’s iOS or Google’s Android OS…
 * …that is no more than 4-ish years old…
-* …and you know how to use your phone for more than texting and phone calls.
-
-It also assumes that you don’t have a fear of modern technology.
-
-* You use biometric unlock (e.g., fingerprint, face).
-* You leverage your phone’s _Wallet_ app for IDs and passes.
-* You know how to use Apple Pay, Google Pay, Samsung Pay, et al.
-* You know how to install and use apps for your phone.
+* …you know how to use your phone for more than texting and phone calls…
+* …and you know how to install and use apps for your phone.
 
 ## :brain: Avoid mental traps
 
